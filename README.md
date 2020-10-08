@@ -11,7 +11,7 @@ To assist in positioning the TMS coil, a connection to the neuronavigation is us
 
 [InVesalius Navigator](https://github.com/invesalius/invesalius3) [1] is a neuronavigation system developed in Python by the Renato Archer Information Technology Center (Brazil) in partnership with BiomagLab (University of São Paulo, Brazil) used in this project.
 
-![](/Images/invesalius.png | width = 100)
+![](/Images/invesalius.png)
 
 ### The problem in nTMS
 A concern of the nTMS operator is the position of the **sensor attached to the patient's head**. There are different types of reference markers for the head; for example: **glasses**, **elastic bands** and **markers** attached directly to the patient's skin. However, all of these are subject to change during the experimental procedures. If this occurs, the **accuracy of neuronavigation is impaired** and the co-registration must be redone, increasing the experimental time.
@@ -53,7 +53,10 @@ The Kalman filter [3] uses a series of measurements obtained over time that cont
 
 A function based on the Kalman filter was adapted from [yinguobing](https://github.com/yinguobing/head-pose-estimation/blob/2da5bf229fcf96d5f4fb075a345bd72ff990894f/stabilizer.py) and implemented in the camera's algorithm. The Kalman filter only works in specific cases where the Savitzky-Golay filter is not able to compute. 
 
+#### Head pose estimation without filter
 ![](/Images/gif_head_pose_estimation.gif)
+
+#### Head pose estimation with Savitzky-Golay filter
 ![](/Images/gif_hpe_savitzky-golay.gif)
 
 ## References
