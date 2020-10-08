@@ -11,7 +11,7 @@ To assist in positioning the TMS coil, a connection to the neuronavigation is us
 
 [InVesalius Navigator](https://github.com/invesalius/invesalius3) [1] is a neuronavigation system developed in Python by the Renato Archer Information Technology Center (Brazil) in partnership with BiomagLab (University of São Paulo, Brazil) used in this project.
 
-![](/Images/invesalius.jpg | width = 100)
+![](/Images/invesalius.jpg)
 
 ### The problem in nTMS
 A concern of the nTMS operator is the position of the **sensor attached to the patient's head**. There are different types of reference markers for the head; for example: **glasses**, **elastic bands** and **markers** attached directly to the patient's skin. However, all of these are subject to change during the experimental procedures. If this occurs, the **accuracy of neuronavigation is impaired** and the co-registration must be redone, increasing the experimental time.
